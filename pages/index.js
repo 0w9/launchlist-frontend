@@ -37,7 +37,7 @@ export default function Home() {
               </dt>
               
               <dd class="order-1 text-3xl md:text-4xl font-bold tracking-tight text-white">
-                120+
+                80+
               </dd>
             </div>
             
