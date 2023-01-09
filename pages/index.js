@@ -12,7 +12,7 @@ export default function Home() {
           </h2>
 
           <p class="text-gray-400 text-base-content/90 md:text-lg">
-            Get a list of platforms to launch your startup and get your first 100 users in under 24h. <br />
+            We created an organized list of platforms to launch your startup and get your first 100 users with. <br />
             Delivered in a nicely organised Notion document, so you can use it as long as you want. <br />
             All updates are included for a lifetime.
           </p>

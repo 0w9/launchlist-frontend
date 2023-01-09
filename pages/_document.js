@@ -7,14 +7,20 @@ export default function Document() {
       <Head />
       <body>
         <nav class="flex flex-col text-center sm:flex-row sm:text-left sm:justify-between p-4 bold uppercase sm:items-baseline w-full font-bold">
+          
           <div class="mb-2 sm:mb-0">
-            <Link href="/" class="text-blue-400 hover:text-blue-500 bold">LaunchList 🚀</Link>
+            <Link href="/" class="text-indigo-200 hover:text-blue-500 bold">LaunchList 🚀</Link>
+          </div>
+
+          <div class="decoration-blue-500 p-2 rounded-lg">
+            <Link href="https://www.twitter.com/lennardeth" class="text-indigo-200 hover:text-blue-500 ml-2 bold">Sponsor <span class="animate-bounce">✨</span></Link>
           </div>
 
           <div>
-            <Link href="https://www.twitter.com/lennardeth" class="text-blue-400 hover:text-blue-500 ml-2 bold">by @lennardeth</Link>
+            <Link href="https://www.twitter.com/lennardeth" class="text-indigo-200 hover:text-blue-500 ml-2 bold">by @lennardeth</Link>
           </div>
-          </nav>
+
+        </nav>
         <Main />
         <NextScript />
       </body>
