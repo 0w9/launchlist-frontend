@@ -12,12 +12,16 @@ export default function Document() {
             <Link href="/" class="text-indigo-200 hover:text-blue-500 bold">LaunchList 🚀</Link>
           </div>
 
-          <div class="decoration-blue-500 p-2 rounded-lg">
-            <Link href="https://www.twitter.com/lennardeth" class="text-indigo-200 hover:text-blue-500 ml-2 bold">Sponsor <span class="animate-bounce">✨</span></Link>
+          <div class="hidden md:block sm:block">
+            <div class="decoration-blue-500 p-2 rounded-lg">
+              <Link href="https://www.twitter.com/lennardeth" class="text-indigo-200 hover:text-blue-500 ml-2 bold">Sponsor <span class="animate-bounce">✨</span></Link>
+            </div>
           </div>
 
-          <div>
-            <Link href="https://www.twitter.com/lennardeth" class="text-indigo-200 hover:text-blue-500 ml-2 bold">by @lennardeth</Link>
+          <div class="hidden md:block sm:block">
+            <div>
+              <Link href="https://www.twitter.com/lennardeth" class="text-indigo-200 hover:text-blue-500 ml-2 bold">by @lennardeth</Link>
+            </div>
           </div>
 
         </nav>
